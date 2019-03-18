@@ -1,4 +1,6 @@
-## Tutorial: How to index electron backscatter patterns from NORDIF software in AstroEBSD
+# [astroebsd-nordif-tutorial](latex/main.pdf)
+
+A tutorial explaining how to index electron backscatter patterns from NORDIF software in AstroEBSD.
 
 This repo contains
 * [LaTeX files for the tutorial](latex/)
