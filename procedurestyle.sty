@@ -1,0 +1,40 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,width=175mm,top=20mm,bottom=20mm,bindingoffset=6mm]{geometry}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[separate-uncertainty=true]{siunitx}
+\usepackage[%
+    colorlinks=true,%
+    linkcolor=blue,%
+    citecolor=blue,%
+    urlcolor=blue,%
+    breaklinks=true,%
+    ]{hyperref} % Everything is blue!
+\usepackage[explicit]{titlesec}
+\usepackage{amsmath}
+\usepackage[font={it}]{caption}
+
+\usepackage{xcolor}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+
+% A small macro for title, authors and date
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+    \Large \@title
+
+    \@author\hspace*{\stretch{1}}\@date
+\end{flushleft}\egroup
+}
+\makeatother
+
+\titleformat{\section}[hang]
+  {\large\bfseries}{\thesection}{.5em}{#1}
+\titleformat{\subsection}[runin]
+  {\normalsize\bfseries}{\thesubsection.}{.5em}{#1.}
+
+\usepackage{menukeys}
+\usepackage[numbered, framed]{matlab-prettifier}
+
+%\setlength\parindent{0pt}

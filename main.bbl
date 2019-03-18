@@ -1,0 +1,151 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Britton2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BTB}{%
+         family={Britton},
+         familyi={B\bibinitperiod},
+         given={Thomas\bibnamedelima Benjamin},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=TV}{%
+         family={Tong},
+         familyi={T\bibinitperiod},
+         given={Vivian},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hickey},
+         familyi={H\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Foden},
+         familyi={F\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Angus},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Union of Crystallography}%
+    }
+    \keyw{astronomy,ebsd,electron backscatter diffraction,electron kikuchi
+  diffraction,indexing,microscopy,scanning electron}
+    \strng{namehash}{BTB+1}
+    \strng{fullhash}{BTBTVHJFAWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Electron backscatter diffraction (EBSD) is a technique used to measure
+  crystallographic features in the scanning electron microscope. The technique
+  is highly automated and readily accessible in many laboratories. EBSD pattern
+  indexing is conventionally performed with raw electron backscatter patterns
+  (EBSPs). These patterns are software processed to locate the band centres
+  (and sometimes edges) from which the crystallographic index of each band is
+  determined. Once a consistent index for many bands are obtained, the crystal
+  orientation with respect to a reference sample {\&} detector orientation can
+  be determined and presented. Unfortunately, due to challenges related to
+  crystal symmetry, there are limited available pattern indexing approaches and
+  this has likely hampered open development of the technique. In this
+  manuscript, we present a new method of pattern indexing, based upon a method
+  with which satellites locate themselves in the night sky, and systematically
+  demonstrate its effectiveness using dynamical simulations and real
+  experimental patterns. The benefit of releasing this new algorithm is
+  demonstrated as we utilise this indexing process, together with dynamical
+  solutions, to provide some of the first accuracy assessments of an indexing
+  solution. In disclosing a new indexing algorithm, and software processing
+  tool-kit, we hope this opens up EBSD developments to more users. The software
+  code and example data is released alongside this article for 3rd party
+  developments.%
+    }
+    \verb{doi}
+    \verb 10.1107/S1600576718010373
+    \endverb
+    \verb{eprint}
+    \verb 1804.02602
+    \endverb
+    \field{isbn}{1600576718010}
+    \field{issn}{1600-5767}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{AstroEBSD: exploring new space in pattern indexing with
+  methods launched from an astronomical approach}}
+    \field{volume}{51}
+    \verb{file}
+    \verb :home/hakon/litteratur/britton2018astro.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Applied Crystallography}
+    \field{eprinttype}{arXiv}
+    \field{year}{2018}
+  \endentry
+
+  \entry{astroebsd}{online}{}
+    \name{author}{1}{}{%
+      {{hash=BTB}{%
+         family={Britton},
+         familyi={B\bibinitperiod},
+         given={Thomas\bibnamedelima Benjamin},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTB1}
+    \strng{fullhash}{BTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{AstroEBSD}
+    \verb{url}
+    \verb https://github.com/benjaminbritton/AstroEBSD
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{21}
+    \field{urlmonth}{01}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{astroebsd-fork}{online}{}
+    \name{author}{1}{}{%
+      {{hash=ÃHW}{%
+         family={Ã…nes},
+         familyi={Ã\bibinitperiod},
+         given={HÃ¥kon\bibnamedelima Wiik},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ÃHW1}
+    \strng{fullhash}{ÃHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fork of AstroEBSD}
+    \verb{url}
+    \verb https://github.com/hwagit/AstroEBSD/tree/nordif-reader
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{13}
+    \field{urlmonth}{03}
+    \field{urlyear}{2019}
+  \endentry
+\enddatalist
+\endinput

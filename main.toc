@@ -1,0 +1,8 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Prerequisites and setup}{1}{section.1}
+\contentsline {section}{\numberline {2}Overview of example data set}{1}{section.2}
+\contentsline {section}{\numberline {3}Index example data set}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Pattern processing}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Radon transformation and peak localisation}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Pattern centre}{3}{subsection.3.3}
+\contentsline {section}{\numberline {4}Inspect results with MTEX}{3}{section.4}
